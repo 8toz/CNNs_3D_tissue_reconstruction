@@ -1,15 +1,15 @@
 # Deep Learning for 3D Tissue reconstruction
 
+<div align="center">
+  <img src="./gifs/3D%20View.gif" alt="HE_dark_bg_predictions" style="display: block; margin: 0 auto; width: 500px; height: auto;" />
+</div>
+
 ## Table of Contents
-- [Expected Results](#expected-results) 
+
 - [Abstract](#abstract)
 - [Installation](#installation)
 - [Notebooks](#notebooks)
 - [Presentation](#presentation)
-
-## Expected Results
-
-
 
 ## Abstract 
 In this project we present an automated pipeline for the 3D reconstruction
@@ -43,6 +43,7 @@ tool for future research in microscope imaging.
 
 1. A system with a GPU installed and CUDA support is required for optimal performance, as the program utilizes TensorFlow.
 2. This installation guide is intended for Linux distributions.
+3. Matlab is needed for the image registration step.
 
 ### Steps
 1. Ensure you have CUDA properly installed. You can follow the [official CUDA installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) for Linux.
@@ -58,6 +59,11 @@ tool for future research in microscope imaging.
     ```bash
    pip install -r requirements.txt
    ```
+5. For the image registration clone the CODA repo and place the files in `./image_registration_scripts` path. 
+   ```bash
+   git clone https://github.com/ashleylk/CODA.git
+   ```
+   Here you can find more information about [CODA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10500590/). Amazing work!!
 ## Notebooks
 
 In this notebooks you'll find an overview of the main functions available in the repository. We have organized the content into four Jupyter notebooks, each with a distinct purpose:
@@ -81,3 +87,4 @@ In this notebooks you'll find an overview of the main functions available in the
    - This notebook allows you to visualize the results from the training phase, showing metrics and other performance indicators for the trained models.
 
 ## Presentation 
+[Power Point URL](./3D%20Breast%20Reconstruction%20with%20Deep%20Learning.pptx)
