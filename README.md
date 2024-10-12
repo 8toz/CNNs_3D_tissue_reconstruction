@@ -81,7 +81,7 @@ In this notebooks you'll find an overview of the main functions available in the
 ### 3. **multiplex_pipeline.ipynb**
    - This notebook performs similar tasks to `HE_Pipeline.ipynb` but for multiplex images.
    - Please note that this block is still under development and lacks proper commenting, making the code a bit messy.
-   - The necessary MATLAB files are found in the `image_registration_coda` directory (`0_main.m`). These files will help process the multiplex data and generate final images, similar to the one on the cover of the repository.
+   - The necessary MATLAB files are found in the `image_registration_scripts` directory (`0_main.m`). These files will help process the multiplex data and generate final images, similar to the one on the cover of the repository.
 
 ### 4. **visualize_train_results.ipynb**
    - This notebook allows you to visualize the results from the training phase, showing metrics and other performance indicators for the trained models.
